@@ -30,3 +30,4 @@ function encodeLine(str) {
 module.exports = {
   encodeLine
 };
+//

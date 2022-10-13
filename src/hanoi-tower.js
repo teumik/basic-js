@@ -30,3 +30,4 @@ function calculateHanoi(disksNumber, turnsSpeed) {
 module.exports = {
   calculateHanoi
 };
+//

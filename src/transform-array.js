@@ -70,42 +70,6 @@ function transform(array) {
         newArr.pop();
       }
     }
-
-
-    // if (array[i].includes('next')) {
-    //   if (!array[i + 1]) {
-    //     continue;
-    //   }
-
-    //   if (array[i].includes('double')) {
-
-    //     newArr.push(array[i + 1]);
-
-    //   } else if (array[i].includes('discard')) {
-
-    //     i++;
-
-    //   }
-
-    // } else if (array[i].includes('prev')) {
-    //   if (!array[i - 1]) {
-    //     continue;
-    //   }
-
-    //   if (array[i].includes('double')) {
-
-    // if (newArr.at(-1) === array[i - 1]) {
-    //   newArr.push(array[i - 1]);
-    // }
-
-    //   } else if (array[i].includes('discard')) {
-
-    // if (newArr.at(-1) === array[i - 1]) {
-    //   newArr.pop();
-    // }
-
-    //   }
-    // }
   }
 
   return newArr;
@@ -114,3 +78,4 @@ function transform(array) {
 module.exports = {
   transform
 };
+//

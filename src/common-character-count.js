@@ -32,3 +32,4 @@ function getCommonCharacterCount(s1, s2) {
 module.exports = {
   getCommonCharacterCount
 };
+//
